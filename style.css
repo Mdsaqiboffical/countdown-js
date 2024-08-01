@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(indep-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 225vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 14.5rem;
+    margin-left: 6rem;
+}
+/* Main Section */
+.main {
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+/* Main Section Close */
+
+/* For Day Section */
+.day-wrapper {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.25rem;
+    border: 2px solid #2B2C2B;
+    border-radius: 6px;
+    height: 100px;
+    width: 100px;
+    align-content: center;
+    color: #178943;
+    background: transparent;
+    backdrop-filter: blur(15px);
+}
+#days {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-top: 5px;
+    color: white;
+}
+/* Day Section Close */
+
+/* For Hour Section */
+.hour-wrapper {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    border: 2px solid #2B2C2B;
+    border-radius: 6px;
+    height: 100px;
+    width: 100px;
+    align-content: center;
+    color: #178943;
+    background: transparent;
+    backdrop-filter: blur(15px);
+}
+#hours {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-top: 5px;
+    color: white;
+}
+/* Hour Section Close */
+
+/* For Min Section */
+.min-wrapper {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    border: 2px solid #2B2C2B;
+    border-radius: 6px;
+    height: 100px;
+    width: 100px;
+    align-content: center;
+    color: #178943;
+    background: transparent;
+    backdrop-filter: blur(15px);
+}
+#min {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-top: 5px;
+    color: white;
+}
+/* Min Section Close */
+
+/* For Sec Section */
+.sec-wrapper {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    border: 2px solid #2B2C2B;
+    border-radius: 6px;
+    height: 100px;
+    width: 100px;
+    align-content: center;
+    color: #178943;
+    background: transparent;
+    backdrop-filter: blur(15px);
+}
+#sec {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-top: 5px;
+    color: #CDB36E;
+}
+/* Sec Section Close */
