@@ -16,6 +16,6 @@ var setDate = setInterval(function () {
 
   if (distanceBtw < 0) {
     clearInterval(setDate)
-    document.getElementById("wtf").innerHTML = "Expired"
+    document.getElementById("Main").innerHTML = "Expired"
   }
 }, 1000)
